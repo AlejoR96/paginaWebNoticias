@@ -89,6 +89,7 @@ hr{
     height: 500px;
     background: url(/img/showcase2.jpg) no-repeat center center/cover;
     padding-bottom:50px;
+    margin-bottom: 20px;
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -122,3 +123,62 @@ hr{
     margin-bottom: 10px;
 }
 
+/*----------------------------------  */
+
+/*Estilos para las  Cards de noticias */
+
+.news-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.news-cards img{
+    width: 100%;
+    height: 180px;
+}
+
+.news-cards a{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    
+}
+
+.news-cards a:hover{
+    text-decoration: underline;
+    
+}
+/* ....................... */
+/* cards-banner-one */
+.cards-banner-one{ /* Imagen de banner cuadrada con css */ 
+    width: 100%;
+    height: 350px;
+    background: url(/img/tech-red.jpg);
+    margin-bottom: 40px;
+}
+
+.cards-banner-one .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: #ffffff;
+}
+
+.cards-banner-one p,
+.cards-banner-one h2{
+    margin-bottom:10px 20px 0 ;
+}
+
+.cards-banner-two{ /* Imagen de banner cuadrada con css */ 
+     width: 100%;
+     height: 350px;
+     background: url(/img/image-five.jpg) no-repeat center center/cover;
+}
+
+.cards-banner-two .container{
+    width: 50%;
+    padding: 100px 0 0 30px;
+}
